@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -43,7 +42,7 @@ const App = () => {
 	}, []);
 
 	return (
-		<Container component="main" maxWidth="xs">
+		<Container component="main" maxWidth="md">
 			<CssBaseline />
 			<Box
 				display="grid"
